@@ -59,21 +59,22 @@ classDiagram
 ### - Formato da conexão com o Railway!
  -application-prd.yml
 
- Substituir o {} junto com seu conteúdo:
- Exemplo: jdbc:postgresql://{host}:{porta}/{banco}
- Exemplo: jdbc:postgresql://localhost:5432/seubanco
+Substituir o {} junto com seu conteúdo:
+
+Exemplo: jdbc:postgresql://{host}:{porta}/{banco}
+Exemplo: jdbc:postgresql://localhost:5432/seubanco
  
- spring:
-  datasource:
-    url: jdbc:postgresql://{HOST}:{PORT}/{DATABASE}?user={USER}&password={PASSWORD}
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: validate  # 'none', 'create', 'validate', dependendo da sua necessidade
-    properties:
-      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-      hibernate.format_sql: true
-      hibernate.show_sql: true
+spring:
+ datasource:
+   url: jdbc:postgresql://{HOST}:{PORT}/{DATABASE}?user={USER}&password={PASSWORD}
+   driver-class-name: org.postgresql.Driver
+ jpa:
+   hibernate:
+     ddl-auto: validate  # 'none', 'create', 'validate', dependendo da sua necessidade
+   properties:
+     hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+     hibernate.format_sql: true
+     hibernate.show_sql: true
 
 
 
