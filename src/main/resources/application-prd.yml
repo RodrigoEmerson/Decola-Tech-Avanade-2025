@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://metro.proxy.rlwy.net:19381/railway?user=postgres&password=hPdyslISePnjyXRWtBRtBrIskyyeRPfZ
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate  # ou 'none', 'create', 'validate', dependendo da sua necessidade
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate.format_sql: true
+      hibernate.show_sql: true
+
+
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://${PGHOST}:${PGPORT}:/${PGDATABASE}
+#    username: ${PGUSER}
+#    password: ${PGPASSWORD}
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    open-in-view: false
+#    hibernate:
+#      ddl-auto: create
+#      dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+#spring.datasource.url=jdbc:postgresql://${PGHOST}:${PGHOST}:/${PGDATABASE}
+#spring.datasource.username=${PGUSER}
+#spring.datasource.password=${PGPASSWORD}
+
+#spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+#spring.jpa.show-sql=false
+#spring.jpa.hibernate.ddl-auto=create
+
