@@ -93,4 +93,9 @@ Esta API ficará disponível no Railway por um período de tempo limitado.
 
 
 
+
+
+
+
+
 ( Meus primeiros projetos utilizei o JAVA 21, SPRING BOOT 3.4.4, até que resolvi realizar a troca das versões, resolvendo uma parte, e surgindo outros Erros )
