@@ -60,10 +60,9 @@ classDiagram
  -application-prd.yml
 
 Substituir o {} junto com seu conteúdo:
-
--Exemplo: jdbc:postgresql://{host}:{porta}/{banco}
--Exemplo: jdbc:postgresql://localhost:5432/seubanco
- 
+Exemplo: jdbc:postgresql://{host}:{porta}/{banco}
+Exemplo: jdbc:postgresql://localhost:5432/seubanco
+ {
 spring:
  datasource:
    url: jdbc:postgresql://{HOST}:{PORT}/{DATABASE}?user={USER}&password={PASSWORD}
@@ -75,7 +74,7 @@ spring:
      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
      hibernate.format_sql: true
      hibernate.show_sql: true
-
+}
 
 
 
