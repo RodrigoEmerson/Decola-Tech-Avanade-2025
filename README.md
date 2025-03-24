@@ -3,6 +3,14 @@
 ## Decola Tech 2025
 
 ### Java RESTful API criada para a Bootcamp 2025.
+-projeto com a finalidade de salvar produtos de mercado.
+
+## Principais Tecnologias
+ - **Java 17**
+ - **Spring Boot 3**
+ - **Spring Data JPA**
+ - **OpenAPI (Swagger)**
+ - **Railway**
 
 ```mermaid
 classDiagram
@@ -76,7 +84,11 @@ classDiagram
 	     hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
 	     hibernate.format_sql: true
 	     hibernate.show_sql: true
-	
+
+
+## Swagger (Documentação da API)
+###[[https://decola-tech-avanade-2025-production.up.railway.app/swagger-ui.html](https://decola-tech-avanade-2025-production.up.railway.app/swagger-ui.html)]
+Esta API ficará disponível no Railway por um período de tempo limitado.
 
 
 
