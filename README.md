@@ -39,4 +39,6 @@ classDiagram
     Product "1" -- "1..*" Feature : contains
     Product "1" -- "1" Supplier : has
     Product "1" -- "0..1" Promotion : offers
-   
+   ```
+
+### CORREÇÔES
