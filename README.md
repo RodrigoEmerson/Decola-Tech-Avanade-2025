@@ -80,4 +80,4 @@ classDiagram
 
 
 
-( Meus primeiros projeto utilizei o JAVA 21, SPRING BOOt 3.4.4, até que resolvi realizar a troca das versões, resolvendo uma parte, e surgindo outros Erros )
+( Meus primeiros projetos utilizei o JAVA 21, SPRING BOOT 3.4.4, até que resolvi realizar a troca das versões, resolvendo uma parte, e surgindo outros Erros )
