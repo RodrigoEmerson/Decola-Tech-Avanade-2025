@@ -87,7 +87,8 @@ classDiagram
 
 
 ## Swagger (Documentação da API)
-###[[https://decola-tech-avanade-2025-production.up.railway.app/swagger-ui.html](https://decola-tech-avanade-2025-production.up.railway.app/swagger-ui.html)]
+[[https://decola-tech-avanade-2025-production.up.railway.app/swagger-ui.html](https://decola-tech-avanade-2025-production.up.railway.app/swagger-ui.html)]
+
 Esta API ficará disponível no Railway por um período de tempo limitado.
 
 
