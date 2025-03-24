@@ -41,3 +41,6 @@ classDiagram
     Product "1" -- "0..1" Promotion : offers
    
 
+
+
+## Correções 
