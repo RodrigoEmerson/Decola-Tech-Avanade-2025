@@ -61,8 +61,8 @@ classDiagram
 
 Substituir o {} junto com seu conteúdo:
 
-Exemplo: jdbc:postgresql://{host}:{porta}/{banco}
-Exemplo: jdbc:postgresql://localhost:5432/seubanco
+-Exemplo: jdbc:postgresql://{host}:{porta}/{banco}
+-Exemplo: jdbc:postgresql://localhost:5432/seubanco
  
 spring:
  datasource:
