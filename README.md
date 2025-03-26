@@ -9,6 +9,8 @@
  - **Java 17**
  - **Spring Boot 3**
  - **Spring Data JPA**
+ - **H2database**
+ - **PostgreSql**
  - **OpenAPI (Swagger)**
  - **Railway**
 
