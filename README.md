@@ -18,37 +18,37 @@
 classDiagram
     class Product {
         +int id
-        +String name
-        +String description
-        +String category
-        +String brand
-        +String barcode
-        +double price
-        +int stock
-        +String expirationDate
+        +String nome
+        +String descricao
+        +String categoria
+        +String marca
+        +String codigoBarras
+        +BigDecimal preco
+        +int estoque
+        +LocalDate dataValidade
     }
 
     class Supplier {
-        +String name
+        +String nome
         +String cnpj
-        +String phone
+        +String telefone
     }
 
     class Feature {
-        +String icon
-        +String description
+        +String icone
+        +String descricao
     }
 
     class Promotion {
-        +double discount
-        +double promotionalPrice
+        +BigDecimal desconto
+        +BigDecimal precoPromocional
     }
 
     
 
-    Product "1" -- "1..*" Feature : contains
-    Product "1" -- "1" Supplier : has
-    Product "1" -- "0..1" Promotion : offers
+    Product "1" -- "1..*" Feature : 
+    Product "1" -- "1" Supplier : 
+    Product "1" -- "0..1" Promotion : 
    ```
 
 ## CORREÇÔES
@@ -100,4 +100,4 @@ Esta API ficará disponível no Railway por um período de tempo limitado.
 
 
 
-( Meus primeiros projetos utilizei o JAVA 21, SPRING BOOT 3.4.4, até que resolvi realizar a troca das versões, resolvendo uma parte, e surgindo outros Erros )
+
