@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
+import java.util.List;
 
 @RestController
 @RequestMapping("/products")
@@ -17,6 +18,12 @@ public class ProductController {
 
     public ProductController(ProductService productService) {
         this.productService = productService;
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Product>> findAll() {
+        List<Product> products = productService.findAll();
+        return ResponseEntity.ok(products);
     }
 
     @GetMapping("/{id}")

@@ -5,6 +5,7 @@ import me.dio.domain.repository.ProductRepository;
 import me.dio.service.ProductService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.NoSuchElementException;
 
 @Service
@@ -28,5 +29,11 @@ public class ProductServiceimpl implements ProductService {
             throw new IllegalArgumentException("Esse produto ja existe. ");
         }
         return productRepository.save(productToCreate);
+    }
+
+
+    @Override
+    public List<Product> findAll() { // Novo método para buscar todos os produtos
+        return productRepository.findAll();
     }
 }
