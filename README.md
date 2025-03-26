@@ -3,7 +3,7 @@
 ## Decola Tech 2025
 
 ### Java RESTful API criada para a Bootcamp 2025.
--projeto com a finalidade de salvar produtos de mercado.
+-Essa API tem como finalidade o cadastro e armazenamento de produtos de mercado.
 
 ## Principais Tecnologias
  - **Java 17**
